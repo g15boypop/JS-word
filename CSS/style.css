@@ -1,0 +1,55 @@
+body {
+    background-image: url("../IMG/pattern-005.jpg");
+}
+
+@font-face {
+  font-family: fontcelt;
+  src:url(../FONT/CELTICHD.TTF);
+}
+
+#mydiv {
+    position: relative;
+    border: solid black 1px;
+    height: 700px;
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(60, 30, 120, 0.5);
+    ;
+}
+
+p {
+    font-family: fontcelt;
+    line-height: 3;
+    text-align: justify;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+}
+
+button {
+    position: absolute;
+    height: 60px;
+    width: 80px;
+    border-radius: 20%;
+    margin-left: 235px;
+    transition: all 2s;
+}
+
+button:hover {
+    background-color: rgb(55, 25, 25);
+    transition: all 2s;
+}
+
+#divhisto {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 235px
+}
+
+#divhisto {
+    color: white;
+    margin-left: 180px;
+}
